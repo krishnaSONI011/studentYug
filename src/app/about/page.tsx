@@ -78,7 +78,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <TopNavbar />
-      <div className="pt-16">
+      <div className="pt-20 mt-4">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-600 to-blue-600 py-20">
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>

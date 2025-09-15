@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import TopNavbar from '@/components/TopNavbar';
 import { 
  
   TrophyIcon, 
@@ -13,7 +14,7 @@ import {
   
   SparklesIcon
 } from '@heroicons/react/24/outline';
-import { icons } from 'lucide-react';
+
 
 const TreesPage = () => {
   const [activeTab, setActiveTab] = useState('my-trees');
@@ -135,7 +136,9 @@ const TreesPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
+    <div className="min-h-screen bg-gray-50">
+      <TopNavbar />
+      <div className="pt-20 mt-10 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -404,6 +407,7 @@ const TreesPage = () => {
             </button>
           </div>
         </motion.div>
+      </div>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ export default function SideBar() {
       {/* Logo */}
       <div>
         <div className="flex justify-center mb-6">
-          <Image src="/logo.png" width={120} height={60} alt="logo" className="object-contain" />
+          <Image src="/logo.png" width={400} height={200} alt="logo" className="object-contain" />
         </div>
 
         {/* Menu */}

@@ -7,7 +7,7 @@ export default function HomePage(){
   return(
     <>
     <TopNavbar />
-    <div className="pt-16"> {/* Add top padding to account for fixed navbar */}
+    <div className="pt-20 mt-4"> {/* Add top padding to account for fixed navbar */}
       <SideBar />
       <MainContainer />
       <RightChat />

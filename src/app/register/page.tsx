@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import TopNavbar from '@/components/TopNavbar';
 import { 
   UserIcon, 
   EnvelopeIcon, 
@@ -73,7 +74,9 @@ const RegisterPage = () => {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12">
+      <div className="min-h-screen bg-gray-50">
+        <TopNavbar />
+        <div className="pt-20 mt-20 flex items-center justify-center py-12">
         <div className="max-w-md mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -99,12 +102,15 @@ const RegisterPage = () => {
             </div>
           </motion.div>
         </div>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50">
+      <TopNavbar />
+      <div className="pt-20 mt-4 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left Side - Benefits */}
@@ -416,6 +422,7 @@ const RegisterPage = () => {
             </form>
           </motion.div>
         </div>
+      </div>
       </div>
     </div>
   );
