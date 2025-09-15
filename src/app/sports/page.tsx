@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { 
   MapPinIcon, 
-  TrophyIcon, 
+ 
   UserIcon,
   StarIcon,
   PhoneIcon,
-  ClockIcon,
+ 
   MagnifyingGlassIcon,
   FunnelIcon,
   HeartIcon

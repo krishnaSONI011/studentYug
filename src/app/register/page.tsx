@@ -21,7 +21,7 @@ const RegisterPage = () => {
     school: '',
     class: '',
     location: '',
-    interests: [],
+    interests: [] as string[],
     agreeToTerms: false
   });
 
@@ -86,7 +86,7 @@ const RegisterPage = () => {
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome to StudentYug!</h2>
             <p className="text-gray-600 mb-6">
-              Your registration is complete. You're now part of a community that's making a difference 
+              Your registration is complete. You&apos;re now part of a community that&apos;s making a difference 
               through sports and environmental responsibility.
             </p>
             <div className="space-y-3">
@@ -119,7 +119,7 @@ const RegisterPage = () => {
                 Join StudentYug Today
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Become part of a community that's transforming how students engage with sports 
+                Become part of a community that&apos;s transforming how students engage with sports 
                 and environmental responsibility. Your journey starts here!
               </p>
               
@@ -147,7 +147,7 @@ const RegisterPage = () => {
                   <h3 className="text-lg font-semibold text-gray-900">Why Join Us?</h3>
                 </div>
                 <p className="text-gray-600 text-sm">
-                  StudentYug is more than just a sports platform. It's a movement that combines 
+                  StudentYug is more than just a sports platform. It&apos;s a movement that combines 
                   personal development with environmental responsibility, creating a positive 
                   impact for both you and the planet.
                 </p>
@@ -328,7 +328,7 @@ const RegisterPage = () => {
                   className="space-y-6"
                 >
                   <h2 className="text-xl font-semibold text-gray-900 mb-4">Sports Interests</h2>
-                  <p className="text-gray-600 mb-6">Select the sports you're interested in (you can choose multiple):</p>
+                  <p className="text-gray-600 mb-6">Select the sports you&apos;re interested in (you can choose multiple):</p>
                   
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {sports.map(sport => (

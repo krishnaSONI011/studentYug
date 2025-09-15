@@ -5,12 +5,12 @@ import TopNavbar from '@/components/TopNavbar';
 import { 
   HeartIcon, 
   TrophyIcon, 
-  MapPinIcon, 
+ 
   UserGroupIcon,
   SparklesIcon,
-  GlobeAltIcon,
+  
   LightBulbIcon,
-  ShieldCheckIcon
+ 
 } from '@heroicons/react/24/outline';
 
 const AboutPage = () => {
@@ -249,7 +249,7 @@ const AboutPage = () => {
               Our Journey
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From a simple idea to a nationwide movement, here's how StudentYug has grown.
+              From a simple idea to a nationwide movement, here how StudentYug has grown.
             </p>
           </motion.div>
 
@@ -294,7 +294,7 @@ const AboutPage = () => {
               Join Our Mission
             </h2>
             <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
-              Be part of a movement that's transforming how students engage with sports and environmental responsibility. 
+              Be part of a movement that transforming how students engage with sports and environmental responsibility. 
               Together, we can create a greener, healthier future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

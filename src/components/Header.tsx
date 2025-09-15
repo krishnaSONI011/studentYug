@@ -6,10 +6,7 @@ import { motion } from 'framer-motion';
 import { 
   Bars3Icon, 
   XMarkIcon,
-  UserIcon,
- 
-  MapPinIcon,
-  TrophyIcon
+  
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
