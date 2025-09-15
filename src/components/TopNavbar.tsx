@@ -29,9 +29,7 @@ export default function TopNavbar() {
             <Link href="/dashboard" className="text-gray-600 hover:text-green-600 transition-colors">
               Dashboard
             </Link>
-            <Link href="/sports" className="text-gray-600 hover:text-green-600 transition-colors">
-              Sports
-            </Link>
+           
             <Link href="/trees" className="text-gray-600 hover:text-green-600 transition-colors">
               Trees
             </Link>

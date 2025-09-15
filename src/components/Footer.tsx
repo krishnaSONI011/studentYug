@@ -105,13 +105,13 @@ const Footer = () => {
               © 2024 StudentYug. All rights reserved. Made with ❤️ for students and environment.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/privacy" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/contact" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">
                 Contact
               </Link>
             </div>

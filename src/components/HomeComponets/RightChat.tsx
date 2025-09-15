@@ -58,7 +58,7 @@ export default function RightChat() {
       </div>
 
       {/* Input */}
-      <div className="p-3 border-t border-gray-100 flex items-center gap-2">
+      <div className="p-3 mb-15 border-t border-gray-100 flex items-center gap-2">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

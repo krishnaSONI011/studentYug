@@ -7,7 +7,7 @@ const menuItems = [
   { name: "Home", href: "/home" },
   { name: "About Us", href: "/about" },
   { name: "Dashboard", href: "/dashboard" },
-  { name: "Sports", href: "/sports" },
+ 
   { name: "Trees", href: "/trees" },
 ];
 
